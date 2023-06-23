@@ -1,0 +1,49 @@
+:root {
+    --Night-color-body:rgb(44, 43, 43);
+    --Deys-color-body:#ffff;
+    --color-icon-menu:rgb(29, 28, 28);
+}
+@mixin Top-margin-10{
+    margin-top: 10px;
+}
+@mixin margin-left-right-auto{
+    margin-bottom: auto;
+    margin-right: auto;
+}
+@mixin display-flex{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+@mixin display-grid-menu{
+    display: grid;
+    grid-template-columns: 50px 149px 40px 44px;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    gap: 17px;
+}
+@mixin display-flex-space-between-ml13{
+    margin-left: 13px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+@mixin display-flex-flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+@mixin flex-align-center-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin display-flex-align-center{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
